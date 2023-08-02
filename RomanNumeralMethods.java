@@ -1,4 +1,4 @@
-public class RomanNumeralFunctions {
+public class RomanNumeralMethods {
     String intToRoman(int num) {
         String romanNumeral = "";
         for(int i = 0; i < num - (num % 1000); i+=1000) romanNumeral += "M";
